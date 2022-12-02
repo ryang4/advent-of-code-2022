@@ -30,7 +30,7 @@ def xSum(input, x):
     
     elfSums = sorted(elfSums)
     
-    return elfSums[-3:]
+    return elfSums[-x:]
 
 
 def main():
